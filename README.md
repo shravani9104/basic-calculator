@@ -1,12 +1,36 @@
-# React + Vite
+# Basic Calculator – React + JavaScript (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and fully functional basic calculator built using **React**, **JavaScript**, and **Vite**. This project demonstrates the fundamentals of state management, UI interactions, and event handling in React, while following a modular and minimalist approach without using any external UI libraries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Perform basic arithmetic: **Addition, Subtraction, Multiplication, Division**
+- Supports **decimal calculations**
+- Includes a **Clear (C)** button
+- Handles edge cases like **division by zero** and invalid inputs
+- Clean UI with **centered layout** and **responsive design**
+- No external UI libraries or frameworks used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+| Technology | Purpose                |
+|------------|------------------------|
+| React      | UI rendering & state   |
+| JavaScript | Logic and calculations |
+| Vite       | Fast development setup |
+| CSS        | Custom styling         |
+
+
+## Getting Started
+
+Follow the steps below to run the project locally on your system.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/basic-calculator.git
+cd basic-calculator
